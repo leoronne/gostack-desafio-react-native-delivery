@@ -63,7 +63,7 @@ describe('Orders', () => {
     ];
 
     apiMock.onGet('/favorites').reply(200, favorites);
-    
+
     const item = {
       id: 1,
       name: 'Ao molho',
@@ -129,7 +129,7 @@ describe('Orders', () => {
     ];
 
     apiMock.onGet('/favorites').reply(200, favorites);
-    
+
     const item = {
       id: 1,
       name: 'Ao molho',
@@ -201,7 +201,7 @@ describe('Orders', () => {
     ];
 
     apiMock.onGet('/favorites').reply(200, favorites);
-    
+
     const item = {
       id: 1,
       name: 'Ao molho',
@@ -291,7 +291,7 @@ describe('Orders', () => {
     ];
 
     apiMock.onGet('/favorites').reply(200, favorites);
-    
+
     const item = {
       id: 1,
       name: 'Ao molho',
@@ -373,7 +373,7 @@ describe('Orders', () => {
     ];
 
     apiMock.onGet('/favorites').reply(200, favorites);
-    
+
     const item = {
       id: 1,
       name: 'Ao molho',
@@ -451,7 +451,7 @@ describe('Orders', () => {
     ];
 
     apiMock.onGet('/favorites').reply(200, favorites);
-    
+
     const item = {
       id: 1,
       name: 'Ao molho',
